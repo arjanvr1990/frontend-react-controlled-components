@@ -1,1 +1,14 @@
-/*Schrijf hier jouw css voor jouw formulier*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 10px 10px 10px;
+}
